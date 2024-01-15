@@ -6,6 +6,7 @@
 
 <p>We have all these delicious recipes:</p>
 <br />
+
 @if (todaysPizzas == null)
 {
     <p>We're finding out what pizzas are available today...</p>
@@ -39,7 +40,7 @@ else
 
 @code{
 
-    private Pizza[] todaysPizzas;
+    private Data.Pizza[] todaysPizzas;
 
     protected override async Task OnInitializedAsync()
     {
