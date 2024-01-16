@@ -3,7 +3,6 @@
 @inject NavigationManager NavigationManager
 @using BlazingPizza.Services
 @inject OrderState OrderState
-@layout MainLayout
 
 <div class="top-bar">
     <a class="logo" href="">
@@ -23,7 +22,6 @@
 </div>
 
 <div class="main">
-    <h1>Blazing Pizzas</h1>
     <ul class="pizza-cards">
         @if (specials != null)
         {
