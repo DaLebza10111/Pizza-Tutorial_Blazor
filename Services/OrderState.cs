@@ -19,6 +19,11 @@
             ShowingConfigureDialog = true;
         }
 
+        public void ResetOrder()
+        {
+            Order = new Order();
+        }
+
         public void CancelConfigurePizzaDialog()
         {
             ConfiguringPizza = null;
